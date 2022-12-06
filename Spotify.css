@@ -1,0 +1,125 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#mainnav{
+    border: 1px solid black;
+    width: 100%;
+    height: 80px;
+    display: flex;
+}
+#subone{
+    border: 1px solid black;
+    width: 50%;
+    height: 80px;
+    background-color: black;
+}
+#subtwo{
+    border: 1px solid black;
+    width: 50%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+}
+#logo{
+     /* border:1px solid black ;  */
+    width: 140px;
+    height: 79px;
+    background-color: black;
+    margin-left: 80px;
+}
+.name{
+    border:1px solid black ;
+    width: 120px;
+    height: 77px;
+    /* margin-top: 10px; */
+    padding-top: 25px; 
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+.name:hover{
+    color: rgb(83, 226, 83);
+}
+.nametwo{
+    border:1px solid black ;
+    width: 120px;
+    height: 77px;
+    /* margin-top: 10px; */
+    padding-top: 25px; 
+    padding-left: 25px;
+    background-color: black;
+    color: white;
+    font-weight: bolder;
+}
+#page{
+    height: 1000px;
+    width: 100%;
+    background-color: rgb(20, 21, 20);
+    background-image: url("./spotify\ back.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#photo{
+    width: 320px;
+    height: 520px;
+    margin-left: 110px;
+    margin-bottom: -380px;
+    border-radius: 20px;
+    z-index: 2;
+}
+#photo1{
+    margin-left: 850px;
+    width: 320px;
+    height:520px ;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+#play{
+    font-size:50px ;
+    color: rgb(83, 244, 83) ;
+    font-weight: 900px;
+    margin-top: 100px;
+    margin-left: 600px;
+    font-style: calc(normal(0,2));
+    
+}
+#get{
+    border: 1px solid black;
+    margin-left: 600px;
+    margin-top: 30px;
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: rgb(83, 232, 83);
+
+}
+#gana{
+    font-size: 50px;
+    color: rgb(83, 243, 83);
+    font-weight: 900px;
+    margin-top: -600px;
+    margin-left: 250px;
+    font-style: calc(normal(0,2));
+}
+#box{
+    border: 1px solid black;
+    width: 100%;
+    height: 700px;
+    /* background-color: rgb(19, 18, 18); */
+
+}
+#box1{
+    border: 1px solid black;
+    width: 100%;
+    height: 100px;
+}
+#line{
+    margin-top: 10px;
+    margin-left: 700px;
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(83, 224, 83);
+}
